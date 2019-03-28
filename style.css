@@ -11,18 +11,23 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.content {
+.container {
     background: #242932;
-    max-width: 640px;
-
     margin: 3rem auto;
-    padding: 3rem;
-    border-radius: 1em;
+    max-width: 640px;
 }
 
-.container {
-    text-align: center;
+.todo {
+    padding: 3rem;
+    border-radius: 1em;
+    width: 90%;
+    min-width: 640px;
+    height: 700px;
+    overflow: scroll;
+}
 
+.todo-header {
+    text-align: center;
 }
 
 h1 {
