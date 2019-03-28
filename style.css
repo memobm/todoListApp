@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f1f1f1;
+    font-family: 'Lato', sans-serif;
+}
+
+.content {
+    background: #242932;
+    max-width: 640px;
+
+    margin: 3rem auto;
+    padding: 3rem;
+    border-radius: 1em;
+}
+
+.container {
+    text-align: center;
+
+}
+
+h1 {
+    color: #fff;
+    padding-bottom: .5em;
+    font-family: 'Pacifico', cursive;
+}
+
+input {
+    width: 300px;
+    padding: 1em;
+    border-radius: .5em;
+    border: none;
+}
+
+.list {
+    list-style-type: none;
+    color: #fff;
+    padding: 2em;
+}
+
+.listItem {
+    border-bottom: 1px solid yellow;
+    padding: .5em;
+}
