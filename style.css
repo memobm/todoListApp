@@ -9,6 +9,7 @@
 body {
     background: #f1f1f1;
     font-family: 'Lato', sans-serif;
+    color: #fff;
 }
 
 .container {
@@ -30,26 +31,42 @@ body {
     text-align: center;
 }
 
-h1 {
-    color: #fff;
-    padding-bottom: .5em;
+.todo-title {
+    margin: 1rem;
     font-family: 'Pacifico', cursive;
 }
 
 input {
-    width: 300px;
-    padding: 1em;
+    width: 100%;
+    padding: 1rem 1.2rem;
     border-radius: .5em;
     border: none;
+    outline: none;
+    font-size: 1rem;
 }
 
-.list {
+.todo-item {
+    border-bottom: 2px solid #d49a3f;
+    padding: 1rem 1.2rem;
     list-style-type: none;
-    color: #fff;
-    padding: 2em;
 }
 
-.listItem {
-    border-bottom: 1px solid yellow;
-    padding: .5em;
+.todo-item:hover {
+    cursor: default;
+}
+
+.done {
+    text-decoration: line-through;
+    border-bottom: 2px solid rgb(65, 52, 32);
+    color: #aaa;
+}
+
+.delete {
+    display: none;
+    float: right;
+    color: #fff;
+}
+
+.delete-show {
+    display: block;
 }
