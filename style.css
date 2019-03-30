@@ -59,14 +59,17 @@ input {
     text-decoration: line-through;
     border-bottom: 2px solid rgb(65, 52, 32);
     color: #aaa;
+    transition: 0.2s ease-in;
+    pointer-events: none;
 }
 
 .delete {
-    display: none;
+    display: block;
     float: right;
     color: #fff;
+    pointer-events: all;
 }
 
-.delete-show {
-    display: block;
+.delete-hide {
+    display: none;
 }
